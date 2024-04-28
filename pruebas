@@ -1,0 +1,47 @@
+Scaler
+
+StandarScaler
+Logistic Regression: 0.750000 (0.067280)  Precisión
+Logistic Regression: 0.860000 (0.067563)  Recal
+Logistic Regression: 0.800000 (0.053673)  F1-score
+Logistic Regression: 0.590000 (0.094694)
+
+MaxAbsScaler
+Logistic Regression: 0.770000 (0.060234)  Precisión
+Logistic Regression: 0.870000 (0.051685)  Recall
+Logistic Regression: 0.810000 (0.044551)   F1-score
+Mathews Logistic Regression: 0.600000 (0.084702)
+
+
+MinMaxScaler
+Logistic Regression: 0.780000 (0.062935) 
+Logistic Regression: 0.860000 (0.057471) 
+Logistic Regression: 0.810000 (0.041561)
+Logistic Regression: 0.600000 (0.093573)
+
+Normalizer
+Logistic Regression: 0.690000 (0.067736) 
+Logistic Regression: 0.920000 (0.059218) 
+Logistic Regression: 0.790000 (0.053228)
+Logistic Regression: 0.530000 (0.093423)
+
+RobustScaler
+Logistic Regression: 0.780000 (0.055004) 
+Logistic Regression: 0.830000 (0.058744) 
+Logistic Regression: 0.800000 (0.037399)
+Logistic Regression: 0.590000 (0.065293)
+
+
+
+
+Logistic Regression: 0.760000 (0.066752)
+Logistic Regression: 0.860000 (0.058471)
+Logistic Regression: 0.800000 (0.052586)
+
+
+
+
+ultima
+Logistic Regression: 0.750000 (0.068251)
+Logistic Regression: 0.890000 (0.056831)
+Logistic Regression: 0.810000 (0.042599)

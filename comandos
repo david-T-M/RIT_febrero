@@ -1,0 +1,159 @@
+
+#hilos
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "RTE3/DEV_" 8 > salida/final/RTE3/log/salidaRTE_DEVs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "RTE3/TEST_" 8 > salida/final/RTE3/log/salidaRTE_TESTs.txt &
+
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "GHS/GHS_" 8 > salida/final/GHS/log/salida_GHSs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilosGPU.py "GHS/GHS_" 8 > salida/final/GHS/log/salida_GHSs.txt &
+
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SICK/DEV_" 5 > salida/final/SICK/log/salidaDEVs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SICK/TRAIN_" 45 > salida/final/SICK/log/salidaTRAINs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SICK/TEST_" 50 > salida/final/SICK/log/salidaTESTs.txt &
+
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SNLI/DEV/DEV_" 10 > salida/final/SNLI/log/salidaDEVs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SNLI/TEST/TEST_" 10 > salida/final/SNLI/log/salidaTESTs.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_hilos.py "SNLI/TRAIN/TRAIN_" 550 > salida/final/SNLI/log/salidaTRAIN.txt &
+
+
+Primer experimento es no quitar elementos de T pero si eliminar elementos de H y validar los datos nuevamente.
+
+- Obtener estadística de valores restantes, cantidades y rangos en la matriz reducida
+- Validar las características a nivel de clases 
+- Checar cuales son los valores grandes y pequeños en las caracteristicas de representación
+- Adecuar las fórmulas
+- Incertidumbre entre valores de similitud coseno
+- Comparar valores obtenidos vs los valores que quedan (Transfer entropy y Granger)
+- Medida asimetrica con entropía , matriz completa vs matriz reducida
+- Introducir nuevas características de compatibilidad semántica e incompatibilidad semántica
+
+
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_1.csv"> salida/prueba/GHS/log/salida_GHS_1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_2.csv"> salida/prueba/GHS/log/salida_GHS_2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_3.csv"> salida/prueba/GHS/log/salida_GHS_3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_4.csv"> salida/prueba/GHS/log/salida_GHS_4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_5.csv"> salida/prueba/GHS/log/salida_GHS_5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_6.csv"> salida/prueba/GHS/log/salida_GHS_6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_7.csv"> salida/prueba/GHS/log/salida_GHS_7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "GHS/GHS_8.csv"> salida/prueba/GHS/log/salida_GHS_8.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_1.csv"> salida/prueba/RTE3/log/salidaRTE_DEV1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_2.csv"> salida/prueba/RTE3/log/salidaRTE_DEV2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_3.csv"> salida/prueba/RTE3/log/salidaRTE_DEV3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_4.csv"> salida/prueba/RTE3/log/salidaRTE_DEV4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_5.csv"> salida/prueba/RTE3/log/salidaRTE_DEV5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_6.csv"> salida/prueba/RTE3/log/salidaRTE_DEV6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_7.csv"> salida/prueba/RTE3/log/salidaRTE_DEV7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/DEV_8.csv"> salida/prueba/RTE3/log/salidaRTE_DEV8.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_1.csv"> salida/prueba/RTE3/log/salidaRTE_TEST1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_2.csv"> salida/prueba/RTE3/log/salidaRTE_TEST2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_3.csv"> salida/prueba/RTE3/log/salidaRTE_TEST3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_4.csv"> salida/prueba/RTE3/log/salidaRTE_TEST4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_5.csv"> salida/prueba/RTE3/log/salidaRTE_TEST5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_6.csv"> salida/prueba/RTE3/log/salidaRTE_TEST6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_7.csv"> salida/prueba/RTE3/log/salidaRTE_TEST7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "RTE3/TEST_8.csv"> salida/prueba/RTE3/log/salidaRTE_TEST8.txt &
+
+
+
+
+SICK
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/DEV_1.csv"> salida/prueba/SICK/log/salidaDEV1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/DEV_2.csv"> salida/prueba/SICK/log/salidaDEV2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/DEV_3.csv"> salida/prueba/SICK/log/salidaDEV3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/DEV_4.csv"> salida/prueba/SICK/log/salidaDEV4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/DEV_5.csv"> salida/prueba/SICK/log/salidaDEV5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_1.csv"> salida/prueba/SICK/log/salidaTRAIN1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_2.csv"> salida/prueba/SICK/log/salidaTRAIN2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_3.csv"> salida/prueba/SICK/log/salidaTRAIN3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_4.csv"> salida/prueba/SICK/log/salidaTRAIN4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_5.csv"> salida/prueba/SICK/log/salidaTRAIN5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_6.csv"> salida/prueba/SICK/log/salidaTRAIN6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_7.csv"> salida/prueba/SICK/log/salidaTRAIN7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_8.csv"> salida/prueba/SICK/log/salidaTRAIN8.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_9.csv"> salida/prueba/SICK/log/salidaTRAIN9.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_10.csv"> salida/prueba/SICK/log/salidaTRAIN10.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_11.csv"> salida/prueba/SICK/log/salidaTRAIN11.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_12.csv"> salida/prueba/SICK/log/salidaTRAIN12.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_13.csv"> salida/prueba/SICK/log/salidaTRAIN13.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_14.csv"> salida/prueba/SICK/log/salidaTRAIN14.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_15.csv"> salida/prueba/SICK/log/salidaTRAIN15.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_16.csv"> salida/prueba/SICK/log/salidaTRAIN16.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_17.csv"> salida/prueba/SICK/log/salidaTRAIN17.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_18.csv"> salida/prueba/SICK/log/salidaTRAIN18.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_19.csv"> salida/prueba/SICK/log/salidaTRAIN19.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_20.csv"> salida/prueba/SICK/log/salidaTRAIN20.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_21.csv"> salida/prueba/SICK/log/salidaTRAIN21.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_22.csv"> salida/prueba/SICK/log/salidaTRAIN22.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_23.csv"> salida/prueba/SICK/log/salidaTRAIN23.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_24.csv"> salida/prueba/SICK/log/salidaTRAIN24.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_25.csv"> salida/prueba/SICK/log/salidaTRAIN25.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_26.csv"> salida/prueba/SICK/log/salidaTRAIN26.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_27.csv"> salida/prueba/SICK/log/salidaTRAIN27.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_28.csv"> salida/prueba/SICK/log/salidaTRAIN28.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_29.csv"> salida/prueba/SICK/log/salidaTRAIN29.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_30.csv"> salida/prueba/SICK/log/salidaTRAIN30.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_31.csv"> salida/prueba/SICK/log/salidaTRAIN31.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_32.csv"> salida/prueba/SICK/log/salidaTRAIN32.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_33.csv"> salida/prueba/SICK/log/salidaTRAIN33.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_34.csv"> salida/prueba/SICK/log/salidaTRAIN34.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_35.csv"> salida/prueba/SICK/log/salidaTRAIN35.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_36.csv"> salida/prueba/SICK/log/salidaTRAIN36.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_37.csv"> salida/prueba/SICK/log/salidaTRAIN37.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_38.csv"> salida/prueba/SICK/log/salidaTRAIN38.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_39.csv"> salida/prueba/SICK/log/salidaTRAIN39.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_40.csv"> salida/prueba/SICK/log/salidaTRAIN40.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_41.csv"> salida/prueba/SICK/log/salidaTRAIN41.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_42.csv"> salida/prueba/SICK/log/salidaTRAIN42.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_43.csv"> salida/prueba/SICK/log/salidaTRAIN43.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_44.csv"> salida/prueba/SICK/log/salidaTRAIN44.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TRAIN_45.csv"> salida/prueba/SICK/log/salidaTRAIN45.txt &
+
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_1.csv"> salida/prueba/SICK/log/salidaTEST1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_2.csv"> salida/prueba/SICK/log/salidaTEST2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_3.csv"> salida/prueba/SICK/log/salidaTEST3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_4.csv"> salida/prueba/SICK/log/salidaTEST4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_5.csv"> salida/prueba/SICK/log/salidaTEST5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_6.csv"> salida/prueba/SICK/log/salidaTEST6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_7.csv"> salida/prueba/SICK/log/salidaTEST7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_8.csv"> salida/prueba/SICK/log/salidaTEST8.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_9.csv"> salida/prueba/SICK/log/salidaTEST9.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_10.csv"> salida/prueba/SICK/log/salidaTEST10.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_11.csv"> salida/prueba/SICK/log/salidaTEST11.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_12.csv"> salida/prueba/SICK/log/salidaTEST12.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_13.csv"> salida/prueba/SICK/log/salidaTEST13.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_14.csv"> salida/prueba/SICK/log/salidaTEST14.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_15.csv"> salida/prueba/SICK/log/salidaTEST15.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_16.csv"> salida/prueba/SICK/log/salidaTEST16.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_17.csv"> salida/prueba/SICK/log/salidaTEST17.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_18.csv"> salida/prueba/SICK/log/salidaTEST18.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_19.csv"> salida/prueba/SICK/log/salidaTEST19.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_20.csv"> salida/prueba/SICK/log/salidaTEST20.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_21.csv"> salida/prueba/SICK/log/salidaTEST21.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_22.csv"> salida/prueba/SICK/log/salidaTEST22.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_23.csv"> salida/prueba/SICK/log/salidaTEST23.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_24.csv"> salida/prueba/SICK/log/salidaTEST24.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_25.csv"> salida/prueba/SICK/log/salidaTEST25.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_26.csv"> salida/prueba/SICK/log/salidaTEST26.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_27.csv"> salida/prueba/SICK/log/salidaTEST27.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_28.csv"> salida/prueba/SICK/log/salidaTEST28.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_29.csv"> salida/prueba/SICK/log/salidaTEST29.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_30.csv"> salida/prueba/SICK/log/salidaTEST30.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_31.csv"> salida/prueba/SICK/log/salidaTEST31.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_32.csv"> salida/prueba/SICK/log/salidaTEST32.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_33.csv"> salida/prueba/SICK/log/salidaTEST33.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_34.csv"> salida/prueba/SICK/log/salidaTEST34.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_35.csv"> salida/prueba/SICK/log/salidaTEST35.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_36.csv"> salida/prueba/SICK/log/salidaTEST36.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_37.csv"> salida/prueba/SICK/log/salidaTEST37.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_38.csv"> salida/prueba/SICK/log/salidaTEST38.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_39.csv"> salida/prueba/SICK/log/salidaTEST39.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_40.csv"> salida/prueba/SICK/log/salidaTEST40.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_41.csv"> salida/prueba/SICK/log/salidaTEST41.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_42.csv"> salida/prueba/SICK/log/salidaTEST42.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_43.csv"> salida/prueba/SICK/log/salidaTEST43.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_44.csv"> salida/prueba/SICK/log/salidaTEST44.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_45.csv"> salida/prueba/SICK/log/salidaTEST45.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_46.csv"> salida/prueba/SICK/log/salidaTEST46.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_47.csv"> salida/prueba/SICK/log/salidaTEST47.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_48.csv"> salida/prueba/SICK/log/salidaTEST48.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_49.csv"> salida/prueba/SICK/log/salidaTEST49.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept.py "SICK/TEST_50.csv"> salida/prueba/SICK/log/salidaTEST50.txt &

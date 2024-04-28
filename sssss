@@ -1,0 +1,16 @@
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_1.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_2.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_3.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_4.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_5.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_6.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_7.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/DEV_8.csv"> salida/nuevo/RTE3/log/salidaRTE_DEV8.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_1.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST1.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_2.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST2.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_3.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST3.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_4.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST4.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_5.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST5.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_6.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST6.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_7.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST7.txt &
+nohup ../anaconda3/envs/rit/bin/python3 RIT_we_concept_new.py "RTE3/TEST_8.csv"> salida/nuevo/RTE3/log/salidaRTE_TEST8.txt &
